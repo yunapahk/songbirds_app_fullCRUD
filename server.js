@@ -1,6 +1,6 @@
 require("dotenv").config()
 const express = require("express")
-const middleware = require("middleware")
+const middleware = require("./utils/middleware")
 const registerControllers = require("./utils/registercontrollers")
 
 const app = express();

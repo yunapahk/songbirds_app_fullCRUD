@@ -1,7 +1,7 @@
-const animalRoutes = require("../routes/pokemon")
+const animalRoutes = require("../routes/animals")
 
 function registerControllers(app) {
-    app.use("/animals", animalRoutes)
+    app.use("/animal", animalRoutes)
 }
 
 module.exports = registerControllers
