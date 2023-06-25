@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+<%- include('./partials/head.ejs') %>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show</title>
+    <title>Songbirds</title>
 </head>
 <body>
     <div class="banner">
-        <h1>Animals</h1>
+        <h1>Songbirds</h1>
     </div>
 
     <div class="button-container">
-        <a href="/animal"><button>Back</button></a>
-        <a href="/animal/<%= animal._id %>/edit"><button>Edit</button></a>
+        <a href="/songbird"><button>Back</button></a>
+        <a href="/songbird/<%= songbird._id %>/edit"><button>Edit</button></a>
     </div>
 
     <div class="delete-button">
-        <form action="/animal/<%= animal._id %>?_method=delete" method="POST">
+        <form action="/songbird/<%= songbird._id %>?_method=delete" method="POST">
             <input type="submit" value="DELETE">
         </form>
     </div>
 
     <div class="name">
-        <p><%= animal.name %></p>
+        <p><%= songbird.name %></p>
+    </div>
+
+    <div class="img">
+        <img src="<%= songbird.img %>">
     </div>
 
     <div class="column">
         <ul>
-            <h2></h2>
-        </ul>
-    </div>
-
-    <div class="column">
-        <ul>
-            <h2></h2>
+            <h2>Specialty: </h2>
+            <p><%= songbird.type %></p>
         </ul>
     </div>
 </body>

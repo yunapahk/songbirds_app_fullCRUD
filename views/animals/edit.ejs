@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit</title>
+    <title>Edit <%= songbird.name %> </title>
 </head>
 <body>
+    <h1>Edit Songbird</h1>
+    <form action="/songbird/<%= songbird._id %>?_method=put" method="POST">
+        <input type="text" name="name" placeholder="Name of Songbird" value="<%= songbird.name %>"/>
+        <input type="text" name="img" placeholder="Image" value="<%= songbird.img %>"/>
+        <input type="text" name="specialty" placeholder="specialty" value="<%= specialty.type %>"/>
     
+        <input type="submit" value="Add New Songbird"/>
+    </form>
 </body>
 </html>
