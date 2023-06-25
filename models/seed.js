@@ -1,13 +1,12 @@
-const Animal = require("./animal")
+const Songbird = require("./songbird")
 const mongoose = require("./connection")
-const animals = require("./seedData")
 
 async funciton seed() {
-    await Animal.deleteMany({})
+    await Songbird.deleteMany({})
 
-    const createdAnimals = await Animal.create(animals)
-    console.log(createdAnimals.length)
-    console.log(createdAnimals[0])
+    const createdSongbirds = await Songbird.create(songbirds)
+    console.log(createdSongbird.length)
+    console.log(createdSongbirds[0])
 }
 
 mongoose.connection.on("open", () => {seed()})
