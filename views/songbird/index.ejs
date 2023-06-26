@@ -10,17 +10,17 @@
     <h1>List of Songbirds</h1>
 
     <div class="create-button">
-        <a href="songbird/new"><button>Creat New Songbird</button></a>
+        <a href="songbird/new"><button>Create New Songbird</button></a>
     </div>
 
     <div class="index-container">
-    <% songbirds.forEach((songbird, index) => { %>
-    <% }) %>
+        <% songbirds.forEach((songbird, index) => { %>
     </div>
 
     <div class="index-songbird">
         <a href="/songbird/<%= songbird._id %>"><h2 class="index-name"><%=songbird.name%></h2></a>
         <img class="index-image" src="<%= songbird.img%>">
+        <% }) %>
     </div>
 
 </body>

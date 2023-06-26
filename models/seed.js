@@ -1,7 +1,7 @@
 const Songbird = require("./songbird")
 const mongoose = require("./connection")
 
-async funciton seed() {
+async function seed() {
     await Songbird.deleteMany({})
 
     const createdSongbirds = await Songbird.create(songbirds)

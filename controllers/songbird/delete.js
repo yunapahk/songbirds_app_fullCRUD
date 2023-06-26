@@ -1,4 +1,4 @@
-const Songbird = require("../../models/asongbird")
+const Songbird = require("../../models/songbird")
 
 async function destroy(req, res) {
     const id = req.params.id
