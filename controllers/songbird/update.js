@@ -7,8 +7,9 @@ async function update(req, res) {
         specialty: req.body.specialty,
         img: req.body.img,
     }
-    await Songbird.findByIdAndUpdate(id, req.body)
-    res.render("/songbird", {songbird})
+
+    await Songbird.findByIdAndUpdate(id, updatedSongbird)
+    res.redirect("/songbird")
 }
 
 module.exports = update

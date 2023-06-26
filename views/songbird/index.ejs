@@ -15,13 +15,13 @@
 
     <div class="index-container">
         <% songbirds.forEach((songbird, index) => { %>
-    </div>
-
+    
     <div class="index-songbird">
         <a href="/songbird/<%= songbird._id %>"><h2 class="index-name"><%=songbird.name%></h2></a>
         <img class="index-image" src="<%= songbird.img%>">
+        <p class="index-specialty"><%= songbird.specialty %></p>
+        </div>
         <% }) %>
     </div>
-
 </body>
 </html>
