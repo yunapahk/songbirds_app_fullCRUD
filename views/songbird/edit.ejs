@@ -9,8 +9,10 @@
     <h1>Edit Songbird</h1>
     <form action="/songbird/<%= songbird._id %>?_method=put" method="POST">
         <input type="text" name="name" placeholder="Name of Songbird" value="<%= songbird.name %>"/>
-        <input type="text" name="specialty" placeholder="specialty" value="<%= specialty.type %>"/>
+        <input type="text" name="specialty" placeholder="specialty" value="<%= songbird.specialty %>"/>
         <input type="text" name="img" placeholder="Image" value="<%= songbird.img %>"/>
+
+  
     
         <input type="submit" value="Add New Songbird"/>
     </form>
