@@ -27,3 +27,17 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
+
+.new-inputs form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-inputs input[type = "submit"] {
+    margin-top: 10px;
+}
+
+.new-inputs input[type= "text"] {
+    width: 180px;
+}
