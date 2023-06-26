@@ -1,10 +1,10 @@
-const songbird = require("../../models/songbird")
+const Songbird = require("../../models/songbird")
 
 async function create(req, res) {
     let newSongbird = {
         name: req.body.name,
+        specialty: req.body.specialty,
         img: req.body.img,
-        specialty: req.body.specialty
     }
     const songbird = Songbird.create(newSongbird)
     console.log(newSongbird, req.body)

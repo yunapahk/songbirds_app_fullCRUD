@@ -32,12 +32,18 @@ h1 {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .new-inputs input[type = "submit"] {
     margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 2rem;
 }
 
 .new-inputs input[type= "text"] {
-    width: 180px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 30px;
 }

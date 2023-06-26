@@ -4,8 +4,8 @@ const {Schema, model} = mongoose;
 
 const songbirdSchema = new Schema ({
     name: String,
-    img: String,
     specialty: String,
+    img: String,
 })
 
 const Songbird = model("Songbird", songbirdSchema)
