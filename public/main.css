@@ -16,10 +16,11 @@ h1 {
 }
 
 .create-button {
+    margin-bottom: 55px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 2rem;
 }
 
@@ -79,6 +80,7 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    font-size: 20px;
 }
 
 .button-container a {
@@ -94,3 +96,4 @@ img {
 .no-underline {
     text-decoration: none;
 }
+
