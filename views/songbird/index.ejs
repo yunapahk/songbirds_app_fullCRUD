@@ -17,7 +17,7 @@
         <% songbirds.forEach((songbird, index) => { %>
     
     <div class="index-songbird">
-        <a href="/songbird/<%= songbird._id %>"><h2 class="index-name"><%=songbird.name%></h2></a>
+        <a href="/songbird/<%= songbird._id %>" class="no-underline"><h2 class="index-name"><%=songbird.name%></h2></a>
         <img class="index-image" src="<%= songbird.img%>">
  
         </div>
