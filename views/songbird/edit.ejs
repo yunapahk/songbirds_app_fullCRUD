@@ -11,9 +11,8 @@
         <input type="text" name="name" placeholder="Name of Songbird" value="<%= songbird.name %>"/>
         <input type="text" name="specialty" placeholder="specialty" value="<%= songbird.specialty %>"/>
         <input type="text" name="img" placeholder="Image" value="<%= songbird.img %>"/>
-
-  
-    
+        Extinct: <input type="checkbox" name="extinct" value="<%=songbird.completed ? "checked" : "" %>"/>
+        <br>
         <input type="submit" value="Add New Songbird"/>
     </form>
 </body>
