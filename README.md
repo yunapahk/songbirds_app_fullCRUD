@@ -1,8 +1,8 @@
 # **List of Songbirds**
 
 ## Webpage
-<img src="/homepage.png" alt="Homepage" width="400" />
-<img src="newpage.png" alt="New Page" width="400" height="275"/>
+<img src="/homepage.png" alt="Homepage" width="400" height="900"/>
+<img src="newpage.png" alt="New Page" width="500" height="500"/>
 
 ## Purpose
 - User can create, view, edit, and delete the name of a songbird, their specialty, and image.
