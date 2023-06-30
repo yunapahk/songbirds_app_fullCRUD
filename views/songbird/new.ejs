@@ -11,11 +11,13 @@
 
     <div class="new-inputs">
         <form action="/songbird" method="POST">
-            <input type="text" name="name" placeholder="Name of Songbird"/>
-            <input type="text" name="specialty" placeholder="Specialty"/>
-            <input type="text" name="img" placeholder="Image"/>
-            <input type="checkbox" name="completed"/>
-            <input type="submit" value="Done" class="create-button"/>
+            <input type="text" name="name" placeholder="Name of Songbird" class="form-input"/>
+            <input type="text" name="specialty" placeholder="Specialty" class="form-input"/>
+            <input type="text" name="img" placeholder="Image" class="form-input"/>
+            
+            <label for="completed">Extinct:</label>
+                <input type="checkbox" id="completed" name="completed" class="checkbox"/>
+                <input type="submit" value="Done" class="create-button"/>
         </form>
     </div>
 
