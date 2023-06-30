@@ -44,7 +44,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
-    justify-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .new-inputs form {
@@ -109,3 +111,8 @@ img {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .index-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
