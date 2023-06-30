@@ -1,7 +1,7 @@
 # **List of Songbirds**
 
 ## Webpage
-<img src="/homepage.png" alt="Homepage" width="400" height="300"/>
+<img src="/homepage.png" alt="Homepage" width="500" height="400"/>
 <img src="newpage.png" alt="New Page" width="500" height="500"/>
 
 ## Purpose
