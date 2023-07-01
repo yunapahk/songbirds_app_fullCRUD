@@ -2,7 +2,7 @@
 
 ## Webpage
 <img src="/homepage.png" alt="Homepage" width="500" height="380"/>
-<img src="newpage.png" alt="New Page" width="450" height="300"/>
+<img src="newpage.png" alt="New Page" width="480" height="300"/>
 
 ## Purpose
 - User can create, view, edit, and delete the name of a songbird, their specialty, and image.
