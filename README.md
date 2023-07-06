@@ -16,7 +16,6 @@
 |/songbird/:id|PUT|Update songbird(s)|
 |/songbird/:id|DELETE|Delete songbird(s)|
 
-## Wireframe
 
 ## Tools
 ![Example Image](/p2.jpg)
